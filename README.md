@@ -58,19 +58,28 @@ Displays saved articles from Core Data.
 ```text
 WorldNews/
 │
-├── Models/
-├── Services/
-├── Core/
-│   ├── Router
-│   ├── Persistence
+├── NetworkLayer/
+│
+├── CoreDataLayer/
 │
 ├── Scenes/
-│   ├── Home
-│   ├── Details
-│   ├── SavedNews
+│   ├── MainScene/
+│   ├── Home/
+│   ├── Details/
+│   ├── SavedNews/
 │
-├── Components/
-│   ├── NewsCard
-│   ├── NetworkImage
+├── Views/
+│   ├── Components/
+│   │   ├── ListOfNews
+│   │   ├── NewsCard
+│   │   ├── NewsNetworkImage
+│   │   ├── NoDataSaved
+│   │   ├── NoDataLoaded
+│
+├── Models/
+│
+├── Navigation/
+│   ├── Router
+│   ├── Route
 │
 └── Resources/
